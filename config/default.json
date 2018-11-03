@@ -1,0 +1,11 @@
+{
+  "FIREBASE__CREDENTIALS": {
+    "apiKey": "AIzaSyBWVwQ0U2qcFegJEwkfHfJf-vj35IP8JYo",
+    "authDomain": "preggers-test-task.firebaseapp.com",
+    "databaseURL": "https://preggers-test-task.firebaseio.com",
+    "projectId": "preggers-test-task",
+    "storageBucket": "preggers-test-task.appspot.com",
+    "messagingSenderId": "882531607532"
+  },
+  "FACEBOOK_APP_ID": "2178252739088059"
+}
