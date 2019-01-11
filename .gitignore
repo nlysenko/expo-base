@@ -1,7 +1,24 @@
-node_modules/**/*
+**/node_modules/**/*
+packages/appengine/lib/**
 .expo/*
 npm-debug.*
-*.jks
-*.p12
-*.key
-*.mobileprovision
+.DS_Store
+.vscode
+.expo
+yarn.lock
+yarn-error.log
+lerna-debug.log
+firebase-debug.log
+Preview.html
+package-lock.json
+yarn.lock
+**/build/
+package-lock.json
+.firebase/
+
+# IntelliJ IDE (PhpStorm, WebStorm) specific systemjs file
+# that enables babel-plugin-module-resolver.
+module-resolver.system.js
+
+# IntelliJ IDE (PhpStorm, WebStorm) environment folder.
+.idea

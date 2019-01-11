@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "test-expo-31",
+    "name": "expo-base",
     "description": "A very interesting project.",
-    "slug": "test-expo-31",
+    "slug": "expo-base",
     "privacy": "public",
-    "sdkVersion": "31.0.0",
+    "sdkVersion": "32.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,9 +17,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }

@@ -37,6 +37,12 @@ export default class HomeScreen extends React.Component {
         <Text>{user.displayName}</Text>
 
         <Button style={styles.button} title="Logout" onPress={this._logout} />
+
+        <Button
+          style={styles.button}
+          title="Update DB"
+          onPress={this._updateDatabase}
+        />
       </View>
     )
   }
@@ -70,4 +76,16 @@ export default class HomeScreen extends React.Component {
   }
 
   _logout = () => firebase.auth().signOut()
+
+  _updateDatabase = () => {
+    const { user } = this.props.screenProps
+
+    firebase
+      .database()
+      .ref(`/foodList/${user.uid}`)
+      .update({
+        orange: 0,
+        apple: 2,
+      })
+  }
 }

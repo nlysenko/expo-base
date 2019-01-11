@@ -1,0 +1,20 @@
+{
+  "presets": ["babel-preset-expo"],
+
+  "plugins": [
+    "transform-do-expressions",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@": "./src",
+          "assets": "./assets",
+          "config": "./config",
+          "package.json": "./package.json",
+          "translations": "./translations"
+        },
+        "extensions": [".json", ".js"]
+      }
+    ]
+  ]
+}
